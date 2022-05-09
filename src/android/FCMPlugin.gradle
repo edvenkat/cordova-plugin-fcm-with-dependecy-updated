@@ -55,7 +55,7 @@ buildscript {
         ANDROID_GRADLE_TOOLS_VERSION = rootProject.hasProperty('ANDROID_GRADLE_TOOLS_VERSION') ? rootProject.ext.ANDROID_GRADLE_TOOLS_VERSION : ANDROID_GRADLE_TOOLS_VERSION
         // Avoid use "GRADLE_VERSION" because jitpack sets this like a environment variable
         classpath "com.android.tools.build:gradle:${ANDROID_GRADLE_TOOLS_VERSION}"
-        //classpath "com.google.gms:google-services:${ANDROID_GOOGLE_SERVICES_VERSION}"
+        classpath "com.google.gms:google-services:${ANDROID_GOOGLE_SERVICES_VERSION}"
     }
 }
 repositories {
