@@ -108,7 +108,7 @@ dependencies {
 // class must be used instead of id(string) to be able to apply plugin from non-root gradle file
 if (!project.plugins.hasPlugin('com.google.gms.google-services')) {
     //apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
-    ext.postBuildExtras = {
-        apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
-    }
+    //ext.postBuildExtras = {
+        //apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
+    //}
 }
