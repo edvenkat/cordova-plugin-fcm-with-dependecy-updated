@@ -93,7 +93,6 @@
 			</feature>
 		</config-file>
 
-		<!-- ENABLE PUSH CAPABILITY -->
 		<config-file parent="aps-environment" target="*/Entitlements-Debug.plist">
 			<string>development</string>
 		</config-file>
@@ -123,7 +122,6 @@
 		<header-file src="src/ios/FCMNotificationCenterDelegate.h" />
 		<source-file src="src/ios/FCMNotificationCenterDelegate.m" />
 
-		<!-- FIREBASE COCOAPODS-->
 		<podspec>
 			<config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
